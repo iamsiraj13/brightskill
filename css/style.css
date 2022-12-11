@@ -535,12 +535,19 @@ label {
 /* 3. slider */
 
  
-.hero-img img {
+/* .hero-img img {
     margin-left: 83px;
     width: 48%;
     height: auto;
     transition: rotate(-90deg);
     transform: rotate(-23deg);
+    margin-top: 158px;
+} */
+.hero-img img {
+    margin-left: 6px;
+    width: 100%;
+    height: auto;
+    transition: rotate(-90deg);
     margin-top: 158px;
 }
 
