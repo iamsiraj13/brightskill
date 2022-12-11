@@ -4285,14 +4285,29 @@ background-position: 45px center;
 .video-img2 {
     left: 0;
     position: absolute;
-    top: 0;
+    top: 106px;
     z-index: 999;
+    width: 50%;
 }
-.video-img2 img {
+.video-img2:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    left: 0;
+    opacity: 0.4;
+    top: 0;
+}
+.video-img2>img {
     border-radius: 0px 10px 10px 0px;
+	width:100%
 }
-.video-img2 .popup-video {
-    margin-left: -73px;
+.video-img2 .popup-video { 
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 50%;
 }
 
 .video-img3 {
