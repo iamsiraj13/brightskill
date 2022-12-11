@@ -1549,6 +1549,7 @@ margin-bottom: 0;
 /* 14. testimonial */
 #testimonios{
     position: relative;
+	background-color: #FAF0F0;
 }
 #testimonios::after {
     content: "";
